@@ -1,0 +1,12 @@
+﻿@model BlindTypingTrainer.Web.ViewModels.LessonListViewModel
+<h1>Уроки</h1>
+<ul>
+    @foreach (var l in Model.Lessons)
+    {
+        <li>
+            <a asp-controller="Typing" asp-action="Index" asp-route-lessonId="@l.Id">
+                @l.Title
+            </a>
+        </li>
+    }
+</ul>

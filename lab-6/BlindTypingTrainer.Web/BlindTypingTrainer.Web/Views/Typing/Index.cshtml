@@ -1,0 +1,20 @@
+﻿@model BlindTypingTrainer.Web.ViewModels.TypingViewModel
+<h2>Тренування</h2>
+<p>@Model.Text</p>
+<textarea id="inputBox" rows="5" cols="80"></textarea>
+<button id="finish">Завершити</button>
+<script>
+    document.getElementById("finish").addEventListener("click", () => {
+      const target = "@Model.Text";
+      const input = document.getElementById("inputBox").value;
+      let c=0, e=0;
+      for (let i=0; i<target.length; i++)
+        (input[i]===target[i]) ? c++ : e++;
+      const f = document.createElement("form");
+      f.method="POST"; f.action="/Typing/Finish";
+      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"sessionId",value:"@Model.SessionId"}));
+      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"correct",value:c}));
+      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"errors",value:e}));
+      document.body.append(f); f.submit();
+    });
+</script>

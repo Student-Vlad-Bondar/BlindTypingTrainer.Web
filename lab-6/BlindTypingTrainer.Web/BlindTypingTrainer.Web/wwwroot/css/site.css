@@ -1,0 +1,23 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #79b8ff;
+}
+
+textarea {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+button {
+    background: #333;
+    color: #e0e0e0;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}

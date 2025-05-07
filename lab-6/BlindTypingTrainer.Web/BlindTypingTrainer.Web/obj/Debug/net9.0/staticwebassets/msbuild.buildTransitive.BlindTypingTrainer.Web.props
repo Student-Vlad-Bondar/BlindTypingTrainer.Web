@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BlindTypingTrainer.Web.props" />
+</Project>
