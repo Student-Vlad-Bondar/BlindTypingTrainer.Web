@@ -51,21 +51,19 @@
               "RelativeToolTip": "BlindTypingTrainer.Web\\Repositories\\LessonRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T20:14:35.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T20:14:35.679Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BlindTypingTrainer.Web",
+              "Title": "BlindTypingTrainer.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
               "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
               "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
               "RelativeToolTip": "BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-07T20:13:22.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T20:13:22.308Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "BlindTypingTrainer.Web\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAswBUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T19:41:57.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T19:41:57.438Z"
             }
           ]
         }
