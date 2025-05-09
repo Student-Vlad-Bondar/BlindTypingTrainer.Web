@@ -10,5 +10,10 @@ namespace BlindTypingTrainer.Web.Data
 
         public DbSet<Lesson> Lessons { get; set; }
         public DbSet<TypingSession> TypingSessions { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+        }
     }
 }

@@ -1,11 +1,31 @@
 ﻿@model BlindTypingTrainer.Web.ViewModels.LessonListViewModel
-<h1>Уроки</h1>
-<ul>
-    @foreach (var l in Model.Lessons)
+@using BlindTypingTrainer.Web.Models
+
+<h1>Уроки сліпого друку</h1>
+
+<form method="get" class="filter-form">
+    <label>
+        Складність:
+        <select name="difficulty" onchange="this.form.submit()">
+            <option value="">Всі</option>
+            @foreach (var d in ViewBag.Difficulties as Difficulty[])
+            {
+                <option value="@d" selected="@(ViewBag.Selected==d ? "selected" : null)">
+                    @d
+                </option>
+            }
+        </select>
+    </label>
+</form>
+
+<ul class="lesson-list">
+    @foreach (var lesson in Model.Lessons)
     {
         <li>
-            <a asp-controller="Typing" asp-action="Index" asp-route-lessonId="@l.Id">
-                @l.Title
+            <a asp-controller="Typing"
+               asp-action="Index"
+               asp-route-lessonId="@lesson.Id">
+                @lesson.Title (@lesson.Difficulty)
             </a>
         </li>
     }

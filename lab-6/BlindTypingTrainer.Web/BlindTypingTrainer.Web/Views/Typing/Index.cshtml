@@ -1,20 +1,27 @@
 ﻿@model BlindTypingTrainer.Web.ViewModels.TypingViewModel
+
 <h2>Тренування</h2>
-<p>@Model.Text</p>
-<textarea id="inputBox" rows="5" cols="80"></textarea>
-<button id="finish">Завершити</button>
+
+<div class="hand-placement">
+    <img src="~/images/hand-placement.png" alt="Правильне розташування пальців" />
+</div>
+<div class="typing-container">
+    <div id="stageText" class="stage-text"></div>
+    <textarea id="inputBox" rows="3" cols="60" autofocus></textarea>
+</div>
+<div class="stats">
+    <span>Етап: <b id="stageNum">1</b> / @Model.Stages.Count</span>
+</div>
+<button id="finish" style="display:none">Завершити</button>
+
+@* Перед підключенням скриптів згенеруємо глобальну змінну *@
 <script>
-    document.getElementById("finish").addEventListener("click", () => {
-      const target = "@Model.Text";
-      const input = document.getElementById("inputBox").value;
-      let c=0, e=0;
-      for (let i=0; i<target.length; i++)
-        (input[i]===target[i]) ? c++ : e++;
-      const f = document.createElement("form");
-      f.method="POST"; f.action="/Typing/Finish";
-      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"sessionId",value:"@Model.SessionId"}));
-      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"correct",value:c}));
-      f.append(Object.assign(document.createElement("input"),{type:"hidden",name:"errors",value:e}));
-      document.body.append(f); f.submit();
-    });
+    window.typingStages = @Html.Raw(Json.Serialize(Model.Stages));
+    // збережемо SessionId для форми Finish
+    const sidInput = document.createElement("input");
+    sidInput.type = "hidden";
+    sidInput.id = "sessionId";
+    sidInput.value = "@Model.SessionId";
+    document.body.appendChild(sidInput);
 </script>
+<script src="~/js/typing.js"></script>
