@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BlindTypingTrainer.Web.Models.Lesson>
+@{
+    ViewData["Title"] = "Управління уроками";
+}
+<h1>@ViewData["Title"]</h1>
+<p><a asp-action="Create" class="btn">Додати урок</a></p>
+<table class="admin-table">
+    <thead><tr><th>Id</th><th>Заголовок</th><th>Дії</th></tr></thead>
+    <tbody>
+        @foreach (var l in Model)
+        {
+            <tr>
+                <td>@l.Id</td>
+                <td>@l.Title</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@l.Id">Редагувати</a> |
+                    <form asp-action="Delete" asp-route-id="@l.Id" method="post" style="display:inline">
+                        <button type="submit" onclick="return confirm('Видалити?')">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

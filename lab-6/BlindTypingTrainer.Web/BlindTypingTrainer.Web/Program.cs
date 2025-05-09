@@ -3,12 +3,12 @@ using BlindTypingTrainer.Web.Models;
 using BlindTypingTrainer.Web.Repositories;
 using BlindTypingTrainer.Web.Services;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
+// 1) Налаштування DbContext з Pomelo MySQL
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -16,7 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     )
 );
 
-// DI
+// 2) Реєструємо DI для репозиторіїв і сервісу
 builder.Services.AddScoped<IRepository<Lesson>, LessonRepository>();
 builder.Services.AddScoped<IRepository<TypingSession>, TypingSessionRepository>();
 builder.Services.AddScoped<TypingService>();
@@ -24,6 +24,9 @@ builder.Services.AddScoped<TypingService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// 3) Сідуємо початкові дані
+SeedData.Initialize(app.Services);
 
 if (!app.Environment.IsDevelopment())
 {
@@ -37,6 +40,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();

@@ -1,4 +1,6 @@
-﻿using BlindTypingTrainer.Web.Services;
+﻿using BlindTypingTrainer.Web.Models;
+using BlindTypingTrainer.Web.Repositories;
+using BlindTypingTrainer.Web.Services;
 using BlindTypingTrainer.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,16 +9,25 @@ namespace BlindTypingTrainer.Web.Controllers
     public class TypingController : Controller
     {
         private readonly TypingService _svc;
-        public TypingController(TypingService svc) => _svc = svc;
+        private readonly IRepository<Lesson> _lessonRepo;
+
+        public TypingController(TypingService svc, IRepository<Lesson> lessonRepo)
+        {
+            _svc = svc;
+            _lessonRepo = lessonRepo;
+        }
 
         public async Task<IActionResult> Index(int lessonId)
         {
             var session = await _svc.StartSessionAsync(lessonId);
-            var lesson = (await _svc.StartSessionAsync(lessonId)).Lesson; // тут треба виправити — див. майбутній рефакторинг
+            var lesson = await _lessonRepo.GetByIdAsync(lessonId);
+            if (lesson == null)
+                return NotFound();
+
             var vm = new TypingViewModel
             {
                 SessionId = session.Id,
-                Text = lesson.Text
+                Stages = lesson.Text.Split('|').ToList()
             };
             return View(vm);
         }

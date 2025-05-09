@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlindTypingTrainer.Web.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250507202324_InitialCreate")]
+    [Migration("20250509134825_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -32,6 +32,9 @@ namespace BlindTypingTrainer.Web.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Difficulty")
+                        .HasColumnType("int");
 
                     b.Property<string>("Text")
                         .IsRequired()
