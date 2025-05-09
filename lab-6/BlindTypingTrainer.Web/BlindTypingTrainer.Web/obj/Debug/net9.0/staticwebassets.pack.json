@@ -13,12 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\uk.svg",
+      "PackagePath": "staticwebassets\\images\\uk.svg"
+    },
+    {
       "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\typing.js",
-      "PackagePath": "staticwebassets\\js\\typing.js"
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\typing-feedback.js",
+      "PackagePath": "staticwebassets\\js\\typing-feedback.js"
     },
     {
       "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
