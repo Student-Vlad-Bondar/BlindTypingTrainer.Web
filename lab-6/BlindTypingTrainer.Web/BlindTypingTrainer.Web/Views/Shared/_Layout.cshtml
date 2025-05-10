@@ -14,21 +14,42 @@
         <nav class="navbar">
             <a asp-controller="Home" asp-action="Index" class="logo">Blind Typing Trainer</a>
             <ul class="nav-menu">
-                <li><a asp-controller="Home" asp-action="Index">Уроки</a></li>
-                <li><a asp-controller="Admin" asp-action="Index">Адмін</a></li>
+                <a asp-controller="Home" asp-action="Index">Уроки</a>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span>Hello, @User.Identity.Name!</span>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Admin" asp-action="Index">Адмін</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Profile">Профіль</a>
+                    }
+                    <a asp-controller="Account" asp-action="Logout">Вихід</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login">Вхід</a>
+                    <a asp-controller="Account" asp-action="Register">Реєстрація</a>
+                }
             </ul>
         </nav>
     </header>
+
     <main class="container">
         @RenderBody()
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>© 2025 BlindTypingTrainer</p>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

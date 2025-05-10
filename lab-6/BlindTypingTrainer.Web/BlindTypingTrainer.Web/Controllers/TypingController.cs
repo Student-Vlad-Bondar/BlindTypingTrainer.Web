@@ -2,10 +2,12 @@
 using BlindTypingTrainer.Web.Repositories;
 using BlindTypingTrainer.Web.Services;
 using BlindTypingTrainer.Web.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlindTypingTrainer.Web.Controllers
 {
+    [Authorize]
     public class TypingController : Controller
     {
         private readonly TypingService _svc;
@@ -20,7 +22,7 @@ namespace BlindTypingTrainer.Web.Controllers
         public async Task<IActionResult> Index(int lessonId)
         {
             var session = await _svc.StartSessionAsync(lessonId);
-            var lesson = await _lessonRepo.GetByIdAsync(lessonId);
+            var lesson = await _lessonRepo.GetByIdAsync(lessonId) ?? throw new ArgumentException("Урок не знайдено");
             if (lesson == null)
                 return NotFound();
 

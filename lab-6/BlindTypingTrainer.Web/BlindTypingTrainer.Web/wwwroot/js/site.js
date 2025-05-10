@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener("DOMContentLoaded", function () {
+    // Для всех <input>, кроме type="email" и type="password"
+    document.querySelectorAll('input:not([type="email"]):not([type="password"])')
+        .forEach(function (el) {
+            el.setAttribute("autocomplete", "off");
+        });
 
-// Write your JavaScript code.
+    // Для всех <textarea>
+    document.querySelectorAll("textarea")
+        .forEach(function (el) {
+            el.setAttribute("autocomplete", "off");
+        });
+});

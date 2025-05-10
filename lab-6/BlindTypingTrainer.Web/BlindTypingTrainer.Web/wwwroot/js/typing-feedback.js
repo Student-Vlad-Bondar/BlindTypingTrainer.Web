@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let timerInterval = null;
 
     let globalStart = null;
-    let totalElapsed = 0;       // загальний час в мс
-    let totalErrors = 0;        // загальні помилки
-    let totalTyped = 0;         // загальна кількість введених символів
-    let totalCorrect = 0;       // загальна кількість правильних символів
+    let totalElapsed = 0;   // миллисекунды
+    let totalErrors = 0;
+    let totalTyped = 0;
+    let totalCorrect = 0;
 
     function pad(n) { return String(n).padStart(2, '0'); }
 
@@ -45,7 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderStage(i) {
         const text = stages[i];
-        stageTextEl.innerHTML = text.split('').map(ch => `<span>${ch}</span>`).join('');
+        stageTextEl.innerHTML = text
+            .split('')
+            .map(ch => `<span>${ch}</span>`)
+            .join('');
         input.value = '';
         current = i;
         stageNumEl.textContent = i + 1;
@@ -94,45 +97,49 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         corrEl.textContent = correctCount;
-        totalCorrect += (val.length === spans.length && correctCount === spans.length) ? correctCount : 0;
+        if (correctCount === spans.length) {
+            totalCorrect += correctCount;
+        }
 
         if (correctCount === spans.length) {
             stopTimer();
             if (current + 1 < stages.length) {
                 renderStage(current + 1);
             } else {
-                // Всі етапи пройдені — показуємо підсумки
                 input.disabled = true;
-                finishBtn.style.display = 'inline-block';
                 showSummary();
             }
         }
     });
 
     finishBtn.addEventListener('click', () => {
+        // заполняем скрытые поля и отправляем форму
+        document.getElementById("correctInput").value = totalCorrect;
+        document.getElementById("errorsInput").value = totalErrors;
         finishForm.submit();
     });
 
     function showSummary() {
-        // Загальний час mm:ss
+        // Общий таймер mm:ss
         const mm = pad(Math.floor(totalElapsed / 60000));
         const ss = pad(Math.floor((totalElapsed % 60000) / 1000));
         totalTimeEl.textContent = `${mm}:${ss}`;
 
         totalErrorsEl.textContent = totalErrors;
 
-        // WPM = (totalTyped/5) / (totalElapsed_minutes)
+        // WPM = (typed/5) / minutes
         const minutes = totalElapsed / 60000;
-        const wpm = minutes > 0 ? Math.round((totalTyped / 5) / minutes) : 0;
-        wpmEl.textContent = wpm;
+        const wpmCalc = minutes > 0 ? Math.round((totalTyped / 5) / minutes) : 0;
+        wpmEl.textContent = wpmCalc;
 
-        // Точність в %
+        // Точность %
         const accuracy = totalTyped > 0
             ? Math.round((totalCorrect / totalTyped) * 100)
             : 0;
         accuracyEl.textContent = `${accuracy}%`;
 
         summaryEl.style.display = 'block';
+        finishBtn.style.display = 'inline-block';
     }
 
     if (stages.length) renderStage(0);
