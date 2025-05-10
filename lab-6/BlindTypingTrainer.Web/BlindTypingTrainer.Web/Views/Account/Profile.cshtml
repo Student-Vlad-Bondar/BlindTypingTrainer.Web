@@ -1,0 +1,50 @@
+﻿@model BlindTypingTrainer.Web.ViewModels.ProfileVM
+
+@{
+    ViewData["Title"] = "Профіль";
+}
+
+<h2>Профіль: @Model.UserName</h2>
+
+<p>
+    <a asp-action="EditProfile" class="btn btn-info">Редагувати дані профілю</a>
+    <a asp-action="Logout" class="btn btn-secondary">Вихід</a>
+</p>
+
+@if (Model.Sessions == null || !Model.Sessions.Any())
+{
+    <p>У вас ще немає завершених сесій.</p>
+}
+else
+{
+    <table class="profile-table table table-striped">
+        <colgroup>
+            <col style="width:25%" />
+            <col style="width:25%" />
+            <col style="width:20%" />
+            <col style="width:15%" />
+            <col style="width:15%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Урок</th>
+                <th>Дата</th>
+                <th>Час, сек</th>
+                <th>Точність, %</th>
+                <th>Помилки</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model.Sessions)
+            {
+                <tr>
+                    <td>@s.Lesson.Title</td>
+                    <td>@s.EndTime.Value.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@((s.EndTime.Value - s.StartTime).TotalSeconds.ToString("F1"))</td>
+                    <td>@(s.Accuracy.ToString("F1"))</td>
+                    <td>@s.Errors</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,21 +1,40 @@
 ﻿@model IEnumerable<BlindTypingTrainer.Web.Models.Lesson>
+@using BlindTypingTrainer.Web.Models
+
 @{
     ViewData["Title"] = "Управління уроками";
 }
+
 <h1>@ViewData["Title"]</h1>
-<p><a asp-action="Create" class="btn">Додати урок</a></p>
-<table class="admin-table">
-    <thead><tr><th>Id</th><th>Заголовок</th><th>Дії</th></tr></thead>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Додати урок</a>
+</p>
+
+<table class="admin-table table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Заголовок</th>
+            <th>Складність</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
     <tbody>
         @foreach (var l in Model)
         {
             <tr>
                 <td>@l.Id</td>
                 <td>@l.Title</td>
+                <td>@l.Difficulty</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@l.Id">Редагувати</a> |
+                    <a asp-action="Edit" asp-route-id="@l.Id" class="btn btn-sm btn-warning">Редагувати</a>
                     <form asp-action="Delete" asp-route-id="@l.Id" method="post" style="display:inline">
-                        <button type="submit" onclick="return confirm('Видалити?')">Видалити</button>
+                        <button type="submit"
+                                class="btn btn-sm btn-danger"
+                                onclick="return confirm('Видалити урок «@l.Title»?');">
+                            Видалити
+                        </button>
                     </form>
                 </td>
             </tr>

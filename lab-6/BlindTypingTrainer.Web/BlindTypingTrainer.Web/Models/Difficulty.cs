@@ -2,9 +2,9 @@
 {
     public enum Difficulty
     {
-        Easy,
-        Medium,
-        Hard,
-        VeryHard
+        Easy = 0,
+        Medium = 1,
+        Hard = 2,
+        VeryHard = 3
     }
 }
