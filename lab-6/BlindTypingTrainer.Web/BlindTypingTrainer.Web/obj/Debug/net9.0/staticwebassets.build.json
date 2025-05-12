@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SyOMpAPGv1zlU4SauArDJXTNqcdMk9Y7fJPE3XJOkSk=",
+  "Hash": "jcyWXjULbxVoA12M/eL2GIV79fTJ6dNIs9MWem30onI=",
   "Source": "BlindTypingTrainer.Web",
   "BasePath": "_content/BlindTypingTrainer.Web",
   "Mode": "Default",
@@ -731,12 +731,12 @@
       "OriginalItemSpec": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-ahgjn1z2oz.gz",
+      "Identity": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-qzqntnvop9.gz",
       "SourceId": "BlindTypingTrainer.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlindTypingTrainer.Web",
-      "RelativePath": "css/site#[.{fingerprint=ahgjn1z2oz}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=qzqntnvop9}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -745,8 +745,8 @@
       "RelatedAsset": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lrzb58tl7r",
-      "Integrity": "0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A=",
+      "Fingerprint": "bktfi7qvzq",
+      "Integrity": "a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css"
@@ -773,12 +773,12 @@
       "OriginalItemSpec": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-acwa07c0yo.gz",
+      "Identity": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-5osllym35y.gz",
       "SourceId": "BlindTypingTrainer.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlindTypingTrainer.Web",
-      "RelativePath": "js/site#[.{fingerprint=acwa07c0yo}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=5osllym35y}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -787,8 +787,8 @@
       "RelatedAsset": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8lch3jsl38",
-      "Integrity": "BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok=",
+      "Fingerprint": "uppx8shjf7",
+      "Integrity": "csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\site.js"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ahgjn1z2oz",
-      "Integrity": "0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30=",
+      "Fingerprint": "qzqntnvop9",
+      "Integrity": "mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1522,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "acwa07c0yo",
-      "Integrity": "xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew=",
+      "Fingerprint": "5osllym35y",
+      "Integrity": "ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3408,13 +3408,13 @@
       ]
     },
     {
-      "Route": "css/site.ahgjn1z2oz.css",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-ahgjn1z2oz.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-qzqntnvop9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001447178003"
+          "Quality": "0.000784929356"
         }
       ],
       "ResponseHeaders": [
@@ -3424,19 +3424,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "690"
+          "Value": "1273"
         },
         {
           "Name": "ETag",
-          "Value": "\"0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A=\""
+          "Value": "\"a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3452,26 +3452,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30=\""
+          "Value": "W/\"mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "ahgjn1z2oz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30="
+          "Value": "sha256-mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w="
         }
       ]
     },
     {
-      "Route": "css/site.ahgjn1z2oz.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3481,7 +3473,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2380"
+          "Value": "4392"
         },
         {
           "Name": "Content-Type",
@@ -3489,11 +3481,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30=\""
+          "Value": "\"mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-qzqntnvop9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qzqntnvop9.css",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-qzqntnvop9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000784929356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qzqntnvop9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qzqntnvop9.css",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3503,7 +3640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ahgjn1z2oz"
+          "Value": "qzqntnvop9"
         },
         {
           "Name": "label",
@@ -3511,13 +3648,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30="
+          "Value": "sha256-mi5NTRM0e0jD4r+tgw572MYR6qFJxAnwY3hvNjAfH6w="
         }
       ]
     },
     {
-      "Route": "css/site.ahgjn1z2oz.css.gz",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-ahgjn1z2oz.gz",
+      "Route": "css/site.qzqntnvop9.css.gz",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-qzqntnvop9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3526,7 +3663,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "690"
+          "Value": "1273"
         },
         {
           "Name": "Content-Type",
@@ -3534,11 +3671,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A=\""
+          "Value": "\"a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
+          "Value": "Mon, 12 May 2025 14:12:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3556,7 +3693,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ahgjn1z2oz"
+          "Value": "qzqntnvop9"
         },
         {
           "Name": "label",
@@ -3564,144 +3701,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-ahgjn1z2oz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001447178003"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "690"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2380"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0loa1woAS5fVHv3TXS75onl74MM/USuK9bq+nVz6T30="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\i82h98lb6x-ahgjn1z2oz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "690"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 17:18:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0d6AvM2qf64jY8dwz7Kav46iuW2EwrWYm/jFGiLPe6A="
+          "Value": "sha256-a3GfL6ojQftF+V0YCJq/3007BSItQ7YbL/NsqKXj5DA="
         }
       ]
     },
@@ -4302,13 +4302,13 @@
       ]
     },
     {
-      "Route": "js/site.acwa07c0yo.js",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-acwa07c0yo.gz",
+      "Route": "js/site.5osllym35y.js",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-5osllym35y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003649635036"
+          "Quality": "0.003412969283"
         }
       ],
       "ResponseHeaders": [
@@ -4318,15 +4318,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "273"
+          "Value": "292"
         },
         {
           "Name": "ETag",
-          "Value": "\"BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok=\""
+          "Value": "\"csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4346,13 +4346,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew=\""
+          "Value": "W/\"ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "acwa07c0yo"
+          "Value": "5osllym35y"
         },
         {
           "Name": "label",
@@ -4360,12 +4360,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew="
+          "Value": "sha256-ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM="
         }
       ]
     },
     {
-      "Route": "js/site.acwa07c0yo.js",
+      "Route": "js/site.5osllym35y.js",
       "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4375,7 +4375,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "506"
+          "Value": "531"
         },
         {
           "Name": "Content-Type",
@@ -4383,11 +4383,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew=\""
+          "Value": "\"ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4397,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "acwa07c0yo"
+          "Value": "5osllym35y"
         },
         {
           "Name": "label",
@@ -4405,13 +4405,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew="
+          "Value": "sha256-ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM="
         }
       ]
     },
     {
-      "Route": "js/site.acwa07c0yo.js.gz",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-acwa07c0yo.gz",
+      "Route": "js/site.5osllym35y.js.gz",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-5osllym35y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4420,7 +4420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "273"
+          "Value": "292"
         },
         {
           "Name": "Content-Type",
@@ -4428,11 +4428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok=\""
+          "Value": "\"csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4450,7 +4450,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "acwa07c0yo"
+          "Value": "5osllym35y"
         },
         {
           "Name": "label",
@@ -4458,18 +4458,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok="
+          "Value": "sha256-csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-acwa07c0yo.gz",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-5osllym35y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003649635036"
+          "Quality": "0.003412969283"
         }
       ],
       "ResponseHeaders": [
@@ -4479,15 +4479,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "273"
+          "Value": "292"
         },
         {
           "Name": "ETag",
-          "Value": "\"BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok=\""
+          "Value": "\"csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4507,13 +4507,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew=\""
+          "Value": "W/\"ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew="
+          "Value": "sha256-ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM="
         }
       ]
     },
@@ -4528,7 +4528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "506"
+          "Value": "531"
         },
         {
           "Name": "Content-Type",
@@ -4536,11 +4536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew=\""
+          "Value": "\"ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4550,13 +4550,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xgFH7Zt9gT/j+OhmkjYkCEqNC8NMMwjI2kU1yXfcLew="
+          "Value": "sha256-ZaEWi23IRFtQakzOKJC6D80Zd76XF26FKOi1r1kVLLM="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-acwa07c0yo.gz",
+      "AssetFile": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\Debug\\net9.0\\compressed\\jskmvz2kw9-5osllym35y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4565,7 +4565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "273"
+          "Value": "292"
         },
         {
           "Name": "Content-Type",
@@ -4573,11 +4573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok=\""
+          "Value": "\"csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:55:31 GMT"
+          "Value": "Mon, 12 May 2025 11:51:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4595,7 +4595,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BJe4wuujGjD1rp9OdZaNBT5iDgmJ/6VNWfIr4omUdok="
+          "Value": "sha256-csjYg3BdfcBWghq1OhQBr7NGgNTwu/lh2jQJmy6ZimA="
         }
       ]
     },
@@ -4624,7 +4624,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4685,7 +4685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4730,7 +4730,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4785,7 +4785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4838,7 +4838,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4875,7 +4875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 16:17:22 GMT"
+          "Value": "Sat, 10 May 2025 17:33:42 GMT"
         },
         {
           "Name": "Cache-Control",

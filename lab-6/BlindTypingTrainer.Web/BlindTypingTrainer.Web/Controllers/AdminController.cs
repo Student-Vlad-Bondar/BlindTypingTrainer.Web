@@ -8,59 +8,51 @@ namespace BlindTypingTrainer.Web.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-        private readonly IRepository<Lesson> _lessonRepo;
-        public AdminController(IRepository<Lesson> lr) => _lessonRepo = lr;
+        private readonly IReadRepository<Lesson> _readRepo;
+        private readonly IWriteRepository<Lesson> _writeRepo;
+
+        public AdminController(
+            IReadRepository<Lesson> readRepo,
+            IWriteRepository<Lesson> writeRepo)
+        {
+            _readRepo = readRepo;
+            _writeRepo = writeRepo;
+        }
 
         public async Task<IActionResult> Index()
         {
-            var lessons = await _lessonRepo.GetAllAsync();
+            var lessons = await _readRepo.GetAllAsync();
             return View(lessons);
         }
 
-        // GET: Admin/Create
-        public IActionResult Create()
-        {
-            // Просто отдаём пустую модель — в форме по-умолчанию выберется первый элемент enum
-            return View(new Lesson());
-        }
+        public IActionResult Create() => View(new Lesson());
 
-        // POST: Admin/Create
         [HttpPost]
         public async Task<IActionResult> Create(Lesson model)
         {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            await _lessonRepo.AddAsync(model);
+            if (!ModelState.IsValid) return View(model);
+            await _writeRepo.AddAsync(model);
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Admin/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
-            var lesson = await _lessonRepo.GetByIdAsync(id);
-            if (lesson == null)
-                return NotFound();
-
-            return View(lesson);
+            var lesson = await _readRepo.GetByIdAsync(id);
+            return lesson == null ? NotFound() : View(lesson);
         }
 
-        // POST: Admin/Edit
         [HttpPost]
         public async Task<IActionResult> Edit(Lesson model)
         {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            await _lessonRepo.UpdateAsync(model);
+            if (!ModelState.IsValid) return View(model);
+            await _writeRepo.UpdateAsync(model);
             return RedirectToAction(nameof(Index));
         }
 
-        // POST: Admin/Delete/5
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
-            await _lessonRepo.DeleteAsync(id);
+            await _writeRepo.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
     }

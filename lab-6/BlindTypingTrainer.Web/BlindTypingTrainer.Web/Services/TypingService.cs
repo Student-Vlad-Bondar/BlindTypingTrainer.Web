@@ -7,27 +7,35 @@ namespace BlindTypingTrainer.Web.Services
 {
     public class TypingService
     {
-        private readonly IRepository<Lesson> _lessonRepo;
-        private readonly IRepository<TypingSession> _sessionRepo;
+        private readonly IReadRepository<Lesson> _lessonRead;
+        private readonly IReadRepository<TypingSession> _sessionRead;
+        private readonly IWriteRepository<TypingSession> _sessionWrite;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public TypingService(IRepository<Lesson> lessonRepo, IRepository<TypingSession> sessionRepo, IHttpContextAccessor httpContextAccessor)
+        public TypingService(
+            IReadRepository<Lesson> lessonRead,
+            IReadRepository<TypingSession> sessionRead,
+            IWriteRepository<TypingSession> sessionWrite,
+            IHttpContextAccessor httpContextAccessor)
         {
-            _lessonRepo = lessonRepo;
-            _sessionRepo = sessionRepo;
+            _lessonRead = lessonRead;
+            _sessionRead = sessionRead;
+            _sessionWrite = sessionWrite;
             _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<TypingSession> StartSessionAsync(int lessonId)
         {
-            var lesson = await _lessonRepo.GetByIdAsync(lessonId)
+            // 1) Load lesson
+            var lesson = await _lessonRead.GetByIdAsync(lessonId)
                       ?? throw new ArgumentException("Урок не знайдено");
 
-            // Определяем текущего пользователя
+            // 2) Get current user
             var user = _httpContextAccessor.HttpContext?.User;
             var userId = user?.FindFirstValue(ClaimTypes.NameIdentifier)
                          ?? throw new InvalidOperationException("Користувач не аутентифікований");
 
+            // 3) Create new session
             var session = new TypingSession
             {
                 LessonId = lessonId,
@@ -35,20 +43,24 @@ namespace BlindTypingTrainer.Web.Services
                 StartTime = DateTime.Now
             };
 
-            await _sessionRepo.AddAsync(session);
+            // 4) Persist
+            await _sessionWrite.AddAsync(session);
             return session;
         }
 
         public async Task EndSessionAsync(int sessionId, int correctChars, int errors)
         {
-            var session = await _sessionRepo.GetByIdAsync(sessionId)
+            // 1) Load existing session
+            var session = await _sessionRead.GetByIdAsync(sessionId)
                           ?? throw new ArgumentException("Сесію не знайдено");
 
+            // 2) Update
             session.EndTime = DateTime.Now;
             session.CorrectChars = correctChars;
             session.Errors = errors;
 
-            await _sessionRepo.UpdateAsync(session);
+            // 3) Persist changes
+            await _sessionWrite.UpdateAsync(session);
         }
     }
 }

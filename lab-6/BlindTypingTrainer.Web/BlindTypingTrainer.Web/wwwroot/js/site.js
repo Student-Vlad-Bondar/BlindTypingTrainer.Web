@@ -1,4 +1,6 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+﻿// wwwroot/js/site.js
+
+document.addEventListener("DOMContentLoaded", function () {
     // Для всех <input>, кроме type="email" и type="password"
     document.querySelectorAll('input:not([type="email"]):not([type="password"])')
         .forEach(function (el) {

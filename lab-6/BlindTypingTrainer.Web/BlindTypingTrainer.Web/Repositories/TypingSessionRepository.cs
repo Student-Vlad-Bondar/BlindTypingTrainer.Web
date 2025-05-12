@@ -4,21 +4,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlindTypingTrainer.Web.Repositories
 {
-    public class TypingSessionRepository : IRepository<TypingSession>
+    public class TypingSessionRepository : IReadRepository<TypingSession>, IWriteRepository<TypingSession>
     {
         private readonly AppDbContext _db;
         public TypingSessionRepository(AppDbContext db) => _db = db;
 
+        // IReadRepository
         public async Task<IEnumerable<TypingSession>> GetAllAsync() =>
-            await _db.TypingSessions
-                     .Include(s => s.Lesson)
-                     .ToListAsync();
+            await _db.TypingSessions.Include(s => s.Lesson).ToListAsync();
 
-        public async Task<TypingSession> GetByIdAsync(int id) =>
+        public async Task<TypingSession?> GetByIdAsync(int id) =>
             await _db.TypingSessions
                      .Include(s => s.Lesson)
                      .FirstOrDefaultAsync(s => s.Id == id);
 
+        // IWriteRepository
         public async Task AddAsync(TypingSession entity)
         {
             await _db.TypingSessions.AddAsync(entity);

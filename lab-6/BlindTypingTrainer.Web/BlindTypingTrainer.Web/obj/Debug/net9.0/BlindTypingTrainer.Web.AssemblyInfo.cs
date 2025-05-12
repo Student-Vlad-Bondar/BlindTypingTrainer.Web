@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlindTypingTrainer.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4002584b984b5cf6fd6b7647b409508fff119272")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c49d1396f473c5344706b771f390f3bd25dc10bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlindTypingTrainer.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlindTypingTrainer.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

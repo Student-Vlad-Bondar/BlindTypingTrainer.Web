@@ -11,9 +11,9 @@ namespace BlindTypingTrainer.Web.Controllers
     public class TypingController : Controller
     {
         private readonly TypingService _svc;
-        private readonly IRepository<Lesson> _lessonRepo;
+        private readonly IReadRepository<Lesson> _lessonRepo;
 
-        public TypingController(TypingService svc, IRepository<Lesson> lessonRepo)
+        public TypingController(TypingService svc, IReadRepository<Lesson> lessonRepo)
         {
             _svc = svc;
             _lessonRepo = lessonRepo;
@@ -22,9 +22,8 @@ namespace BlindTypingTrainer.Web.Controllers
         public async Task<IActionResult> Index(int lessonId)
         {
             var session = await _svc.StartSessionAsync(lessonId);
-            var lesson = await _lessonRepo.GetByIdAsync(lessonId) ?? throw new ArgumentException("Урок не знайдено");
-            if (lesson == null)
-                return NotFound();
+            var lesson = await _lessonRepo.GetByIdAsync(lessonId)
+                         ?? throw new ArgumentException("Урок не знайдено");
 
             var vm = new TypingViewModel
             {

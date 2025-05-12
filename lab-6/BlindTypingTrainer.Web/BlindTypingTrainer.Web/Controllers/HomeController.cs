@@ -3,37 +3,46 @@ using Microsoft.AspNetCore.Mvc;
 using BlindTypingTrainer.Web.Models;
 using BlindTypingTrainer.Web.Repositories;
 using BlindTypingTrainer.Web.ViewModels;
+using BlindTypingTrainer.Web.Services;
 
-namespace BlindTypingTrainer.Web.Controllers;
-
-public class HomeController : Controller
+namespace BlindTypingTrainer.Web.Controllers
 {
-    private readonly IRepository<Models.Lesson> _lessonRepo;
-    public HomeController(IRepository<Lesson> lessonRepo)
+    public class HomeController : Controller
     {
-        _lessonRepo = lessonRepo;
-    }
+        private readonly IReadRepository<Lesson> _lessonRepo;
+        private readonly IEnumerable<ILessonFilterStrategy> _filterStrategies;
 
-    public async Task<IActionResult> Index(Difficulty? difficulty)
-    {
-        // 1. Завантажуємо всі уроки
-        var allLessons = await _lessonRepo.GetAllAsync();
-
-        // 2. Фільтруємо за складністю, якщо передано параметр
-        var filtered = difficulty.HasValue
-            ? allLessons.Where(l => l.Difficulty == difficulty.Value)
-            : allLessons;
-
-        // 3. Передаємо у ViewBag список усіх складностей та вибрану
-        ViewBag.Difficulties = Enum.GetValues(typeof(Difficulty)) as Difficulty[];
-        ViewBag.Selected = difficulty;
-
-        // 4. Створюємо ViewModel
-        var vm = new LessonListViewModel
+        public HomeController(
+            IReadRepository<Lesson> lessonRepo,
+            IEnumerable<ILessonFilterStrategy> filterStrategies)
         {
-            Lessons = filtered.ToList()
-        };
+            _lessonRepo = lessonRepo;
+            _filterStrategies = filterStrategies;
+        }
 
-        return View(vm);
+        public async Task<IActionResult> Index(Difficulty? difficulty)
+        {
+            var allLessons = await _lessonRepo.GetAllAsync();
+
+            // apply Strategy if difficulty selected
+            var filtered = difficulty.HasValue
+                ? allLessons.Where(l =>
+                {
+                    var strat = _filterStrategies
+                        .First(s => s.StrategyDifficulty == difficulty.Value);
+                    return strat.IsMatch(l);
+                })
+                : allLessons;
+
+            ViewBag.Difficulties = Enum.GetValues(typeof(Difficulty)) as Difficulty[];
+            ViewBag.Selected = difficulty;
+
+            var vm = new LessonListViewModel
+            {
+                Lessons = filtered.ToList()
+            };
+
+            return View(vm);
+        }
     }
 }

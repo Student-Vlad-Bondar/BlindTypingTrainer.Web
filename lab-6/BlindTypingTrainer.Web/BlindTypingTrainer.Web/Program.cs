@@ -9,37 +9,46 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-// 1) Налаштування DbContext з Pomelo MySQL
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(
+// 1) DbContext
+builder.Services.AddDbContext<AppDbContext>(opts =>
+    opts.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(9, 1, 0))
     )
 );
 
-// 2) Identity: користувачі та ролі
+// 2) Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(opts =>
 {
+    opts.Password.RequiredLength = 6;
     opts.Password.RequireDigit = false;
     opts.Password.RequireLowercase = false;
     opts.Password.RequireUppercase = false;
     opts.Password.RequireNonAlphanumeric = false;
-    opts.Password.RequiredLength = 6;
 })
-    .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders();
+.AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
-// Налаштування кукі для авторизації
+// 3) Cookie paths
 builder.Services.ConfigureApplicationCookie(opts =>
 {
     opts.LoginPath = "/Account/Login";
     opts.AccessDeniedPath = "/Account/AccessDenied";
 });
 
-// 3) Ваші репозиторії та сервіси
-builder.Services.AddScoped<IRepository<Lesson>, LessonRepository>();
-builder.Services.AddScoped<IRepository<TypingSession>, TypingSessionRepository>();
+// 4) Repositories
+builder.Services.AddScoped<IReadRepository<Lesson>, LessonRepository>();
+builder.Services.AddScoped<IWriteRepository<Lesson>, LessonRepository>();
+builder.Services.AddScoped<IReadRepository<TypingSession>, TypingSessionRepository>();
+builder.Services.AddScoped<IWriteRepository<TypingSession>, TypingSessionRepository>();
 
+// 5) Filtering strategies
+builder.Services.AddScoped<ILessonFilterStrategy, EasyStrategy>();
+builder.Services.AddScoped<ILessonFilterStrategy, MediumStrategy>();
+builder.Services.AddScoped<ILessonFilterStrategy, HardStrategy>();
+builder.Services.AddScoped<ILessonFilterStrategy, VeryHardStrategy>();
+
+// 6) Application services
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<TypingService>();
 
@@ -47,41 +56,34 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// 4) Міграції, сід дані та створення ролі/адміна
+// 7) Migrations + data + admin seeding
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-
-    // Мігруємо БД
     var db = services.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
 
-    // Сідуємо уроки
     SeedData.Initialize(services);
 
-    // Створюємо роль Admin та користувача admin, якщо їх нема
-    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-    if (!await roleManager.RoleExistsAsync("Admin"))
-    {
-        await roleManager.CreateAsync(new IdentityRole("Admin"));
-    }
+    var roles = services.GetRequiredService<RoleManager<IdentityRole>>();
+    if (!await roles.RoleExistsAsync("Admin"))
+        await roles.CreateAsync(new IdentityRole("Admin"));
 
-    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-    var adminUser = await userManager.FindByNameAsync("admin");
-    if (adminUser == null)
+    var users = services.GetRequiredService<UserManager<ApplicationUser>>();
+    if (await users.FindByNameAsync("admin") == null)
     {
-        adminUser = new ApplicationUser
+        var admin = new ApplicationUser
         {
             UserName = "admin",
             Email = "admin@example.com",
             EmailConfirmed = true
         };
-        await userManager.CreateAsync(adminUser, "Admin123!");
-        await userManager.AddToRoleAsync(adminUser, "Admin");
+        await users.CreateAsync(admin, "Admin123!");
+        await users.AddToRoleAsync(admin, "Admin");
     }
 }
 
-// 5) Налаштування middleware
+// 8) Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -90,14 +92,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
-// Обов’язково: спочатку аутентифікація
 app.UseAuthentication();
 app.UseAuthorization();
 
-// 6) Маршрути
+// 9) Routing
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"

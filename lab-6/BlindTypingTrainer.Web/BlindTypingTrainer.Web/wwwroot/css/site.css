@@ -1,155 +1,255 @@
+/* wwwroot/css/site.css */
+
+/* === Base styles === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
 }
 
 a {
-    color: #79b8ff;
+    color: #007bff;
+    text-decoration: none;
 }
 
-textarea {
-    background: #1e1e1e;
-    color: #e0e0e0;
-    border: 1px solid #333;
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* === Layout === */
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-button {
-    background: #333;
-    color: #e0e0e0;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
+header, footer {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
 }
 
+footer {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* === Navbar === */
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 1rem;
-    background: #1f1f1f;
 }
+
+    .navbar .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #007bff;
+    }
 
 .nav-menu {
     list-style: none;
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
-    .nav-menu a {
-        color: #e0e0e0;
-        text-decoration: none;
+    .nav-menu a, .nav-menu span {
+        color: #333;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
     }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #79b8ff;
-}
+        .nav-menu a:hover {
+            background: #e9ecef;
+        }
 
-.container {
-    padding: 2rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    font-size: .9rem;
-    color: #888;
-}
-
+/* === Buttons === */
 .btn {
-    background: #79b8ff;
-    color: #121212;
-    padding: .5rem 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
     border: none;
-    border-radius: .25rem;
-    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
 }
 
+    .btn:hover {
+        background: #0069d9;
+    }
+
+.btn-secondary {
+    background: #6c757d;
+}
+
+    .btn-secondary:hover {
+        background: #5a6268;
+    }
+
+.btn-info {
+    background: #17a2b8;
+}
+
+    .btn-info:hover {
+        background: #138496;
+    }
+
+/* === Forms & inputs === */
 .form-group {
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
-    .form-group input, .form-group textarea {
-        padding: .5rem;
-        background: #1e1e1e;
-        color: #e0e0e0;
-        border: 1px solid #333;
+    .form-group label {
+        margin-bottom: 0.25rem;
+        display: block;
+        font-weight: 600;
     }
 
-.admin-table {
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+        font-size: 1rem;
+    }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+.validation-summary,
+.field-validation,
+.text-danger {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+/* === Tables === */
+table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 1rem;
 }
 
-    .admin-table th, .admin-table td {
-        padding: .5rem;
-        border: 1px solid #333;
+    table thead th {
+        background: #007bff;
+        color: #fff;
+        padding: 0.75rem;
+        text-align: left;
     }
 
-.typing-area {
-    display: flex;
-    gap: 1rem;
+    table tbody td {
+        padding: 0.75rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+.table-striped tbody tr:nth-child(odd) {
+    background: #f9f9f9;
 }
 
-#lessonText span.correct {
-    background: #2e7d32;
-    color: #fff;
-}
-
-#lessonText span.wrong {
-    background: #c62828;
-    color: #fff;
-}
-
-.stats {
-    margin-top: 1rem;
-    display: flex;
-    gap: 2rem;
-    font-size: 1.1rem;
-}
-
+/* === Typing lesson === */
 .typing-container {
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 .stage-text {
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    background: #e9ecef;
+    border-radius: 4px;
+    min-height: 3rem;
 }
 
-.correct {
-    color: #2e7d32;
-}
-
-.wrong {
-    color: #c62828;
+#inputBox {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: monospace;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 }
 
 .stats {
-    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
 }
+
+    .stats span b {
+        font-weight: 600;
+    }
 
 #finish {
-    padding: .5rem 1rem;
+    margin-top: 1rem;
 }
 
+/* correct / wrong highlighting */
+.correct {
+    color: #28a745;
+}
+
+.wrong {
+    color: #dc3545;
+}
+
+.stage-text span.correct {
+    background: rgba(40,167,69,0.1);
+}
+
+.stage-text span.wrong {
+    background: rgba(220,53,69,0.1);
+}
+
+/* === Profile page === */
 .profile-table {
-    width: 100%;
-    border-collapse: collapse;
+    margin-top: 1rem;
 }
-
-    .profile-table th,
-    .profile-table td {
-        border: 1px solid #ccc;
-        padding: 8px;
-        text-align: center;
-        vertical-align: middle;
-    }
 
     .profile-table th {
-        background-color: #f8f9fa;
+        background: #343a40;
+        color: #fff;
+        padding: 0.75rem;
     }
+
+    .profile-table td {
+        text-align: center;
+        padding: 0.75rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+/* === Admin / lesson management === */
+.admin-table th {
+    background: #343a40;
+    color: #fff;
+    padding: 0.75rem;
+}
+
+.admin-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#imag {
+    margin: auto;
+}
