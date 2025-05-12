@@ -24,7 +24,7 @@ namespace BlindTypingTrainer.Web.Controllers
         {
             var allLessons = await _lessonRepo.GetAllAsync();
 
-            // apply Strategy if difficulty selected
+            // застосуваємо Strategy, якщо вибрано складність
             var filtered = difficulty.HasValue
                 ? allLessons.Where(l =>
                 {

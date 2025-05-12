@@ -26,16 +26,16 @@ namespace BlindTypingTrainer.Web.Services
 
         public async Task<TypingSession> StartSessionAsync(int lessonId)
         {
-            // 1) Load lesson
+            // 1) Завантаження уроку
             var lesson = await _lessonRead.GetByIdAsync(lessonId)
                       ?? throw new ArgumentException("Урок не знайдено");
 
-            // 2) Get current user
+            // 2) Отримання поточного користувача
             var user = _httpContextAccessor.HttpContext?.User;
             var userId = user?.FindFirstValue(ClaimTypes.NameIdentifier)
                          ?? throw new InvalidOperationException("Користувач не аутентифікований");
 
-            // 3) Create new session
+            // 3) Створення нової сесії
             var session = new TypingSession
             {
                 LessonId = lessonId,
@@ -43,23 +43,23 @@ namespace BlindTypingTrainer.Web.Services
                 StartTime = DateTime.Now
             };
 
-            // 4) Persist
+            // 4) Збереження
             await _sessionWrite.AddAsync(session);
             return session;
         }
 
         public async Task EndSessionAsync(int sessionId, int correctChars, int errors)
         {
-            // 1) Load existing session
+            // 1) Завантаження існуючого сеансу
             var session = await _sessionRead.GetByIdAsync(sessionId)
                           ?? throw new ArgumentException("Сесію не знайдено");
 
-            // 2) Update
+            // 2) Оновлення
             session.EndTime = DateTime.Now;
             session.CorrectChars = correctChars;
             session.Errors = errors;
 
-            // 3) Persist changes
+            // 3) Збереження змін
             await _sessionWrite.UpdateAsync(session);
         }
     }

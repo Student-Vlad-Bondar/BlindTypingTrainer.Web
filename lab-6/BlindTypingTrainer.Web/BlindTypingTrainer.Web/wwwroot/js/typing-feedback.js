@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let timerInterval = null;
 
     let globalStart = null;
-    let totalElapsed = 0;   // миллисекунды
+    let totalElapsed = 0;   // мілісекунди
     let totalErrors = 0;
     let totalTyped = 0;
     let totalCorrect = 0;
@@ -113,14 +113,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     finishBtn.addEventListener('click', () => {
-        // заполняем скрытые поля и отправляем форму
+        // Заповнюємо сховані поля і відправляємо форму
         document.getElementById("correctInput").value = totalCorrect;
         document.getElementById("errorsInput").value = totalErrors;
         finishForm.submit();
     });
 
     function showSummary() {
-        // Общий таймер mm:ss
+        // Загальний таймер mm:ss
         const mm = pad(Math.floor(totalElapsed / 60000));
         const ss = pad(Math.floor((totalElapsed % 60000) / 1000));
         totalTimeEl.textContent = `${mm}:${ss}`;
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const wpmCalc = minutes > 0 ? Math.round((totalTyped / 5) / minutes) : 0;
         wpmEl.textContent = wpmCalc;
 
-        // Точность %
+        // Точність %
         const accuracy = totalTyped > 0
             ? Math.round((totalCorrect / totalTyped) * 100)
             : 0;

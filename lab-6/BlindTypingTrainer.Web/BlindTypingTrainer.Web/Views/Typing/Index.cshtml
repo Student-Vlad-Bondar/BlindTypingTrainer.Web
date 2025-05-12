@@ -18,10 +18,10 @@
     <span>Помилки: <b id="errors">0</b></span>
 </div>
 
-@* Скрытый input с JSON-списком этапов *@
+@* Прихований input з JSON-списком етапів *@
 <input type="hidden" id="stagesData" value='@Html.Raw(Json.Serialize(Model.Stages))' />
 
-@* Форма завершения, в неё JS подставит correct/errors и отправит *@
+@* Форма завершення, до неї JS підставить correct/errors і відправить *@
 <form id="finishForm" asp-controller="Typing" asp-action="Finish" method="post">
     <input type="hidden" name="sessionId" value="@Model.SessionId" />
     <input type="hidden" id="correctInput" name="correct" value="0" />
@@ -30,7 +30,7 @@
 
 <button id="finish" type="button" style="display:none">Завершити</button>
 
-@* Блок с итогами *@
+@* Блок із підсумками *@
 <div id="summary" style="display:none; margin-top:2rem;">
     <h3>Результати уроку</h3>
     <p>Загальний час: <b id="totalTime">00:00</b></p>

@@ -104,7 +104,7 @@ namespace BlindTypingTrainer.Web.Controllers
             if (user == null)
                 return NotFound();
 
-            // 1) Изменяем UserName и Email
+            // 1) Змінюємо UserName і Email
             bool needSignIn = false;
             if (vm.UserName != user.UserName)
             {
@@ -114,7 +114,7 @@ namespace BlindTypingTrainer.Web.Controllers
             if (vm.Email != user.Email)
             {
                 user.Email = vm.Email;
-                user.EmailConfirmed = false; // по желанию
+                user.EmailConfirmed = false;
                 needSignIn = true;
             }
             var res = await _um.UpdateAsync(user);
@@ -125,7 +125,7 @@ namespace BlindTypingTrainer.Web.Controllers
                 return View(vm);
             }
 
-            // 2) Меняем пароль, если заполнено поле
+            // 2) Змінюємо пароль, якщо заповнене поле
             if (!string.IsNullOrEmpty(vm.CurrentPassword) ||
                 !string.IsNullOrEmpty(vm.NewPassword))
             {
@@ -144,7 +144,7 @@ namespace BlindTypingTrainer.Web.Controllers
                 needSignIn = true;
             }
 
-            // 3) Если меняли логин/email или пароль — перевходим на свежую сессию
+            // 3) Якщо міняли логін/email чи пароль — перезаходимо на нову(свіжу) сесію
             if (needSignIn)
                 await _sm.RefreshSignInAsync(user);
 
