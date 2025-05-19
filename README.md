@@ -118,4 +118,4 @@
 
 ---
 
-![The number of lines in the project](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/wwwroot/images/git.png)
+![The number of lines in the project](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/wwwroot/images/git.)
