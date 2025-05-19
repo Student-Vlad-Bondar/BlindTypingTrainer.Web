@@ -115,3 +115,7 @@
 
 5. Remove Dead Code
    - Видалено застарілі залежності та непотрібні поля після інтеграції Identity і розділення репозиторіїв.
+
+---
+
+![The number of lines in the project](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/wwwroot/images/git.png)
