@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BlindTypingTrainer.Web.e300ee6w9k.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\achievements.css",
+      "PackagePath": "staticwebassets\\css\\achievements.css"
+    },
+    {
       "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +17,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\achievements\\100_words.png",
+      "PackagePath": "staticwebassets\\images\\achievements\\100_words.png"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\achievements\\accuracy_95.jpg",
+      "PackagePath": "staticwebassets\\images\\achievements\\accuracy_95.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\achievements\\first_lesson.jfif",
+      "PackagePath": "staticwebassets\\images\\achievements\\first_lesson.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\achievements\\marathon.jfif",
+      "PackagePath": "staticwebassets\\images\\achievements\\marathon.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\achievements\\speed_50.jfif",
+      "PackagePath": "staticwebassets\\images\\achievements\\speed_50.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\git.png",
+      "PackagePath": "staticwebassets\\images\\git.png"
+    },
+    {
       "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\images\\uk.svg",
       "PackagePath": "staticwebassets\\images\\uk.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\achievements.js",
+      "PackagePath": "staticwebassets\\js\\achievements.js"
     },
     {
       "Id": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\site.js",

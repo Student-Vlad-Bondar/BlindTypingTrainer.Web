@@ -57,6 +57,7 @@ namespace BlindTypingTrainer.Web.Data
             };
 
             context.Lessons.AddRange(lessons);
+
             context.SaveChanges();
         }
     }

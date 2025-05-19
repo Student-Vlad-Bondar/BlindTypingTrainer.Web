@@ -7,6 +7,7 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/achievements.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BlindTypingTrainer.Web.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -25,6 +26,7 @@
                     }
                     else
                     {
+                        <a asp-controller="Achievement" asp-action="Index">Досягнення</a>
                         <a asp-controller="Account" asp-action="Profile">Профіль</a>
                     }
                     <a asp-controller="Account" asp-action="Logout">Вихід</a>

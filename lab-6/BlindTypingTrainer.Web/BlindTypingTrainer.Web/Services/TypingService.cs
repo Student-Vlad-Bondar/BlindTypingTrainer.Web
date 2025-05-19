@@ -11,17 +11,20 @@ namespace BlindTypingTrainer.Web.Services
         private readonly IReadRepository<TypingSession> _sessionRead;
         private readonly IWriteRepository<TypingSession> _sessionWrite;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly AchievementService _achievementService;
 
         public TypingService(
             IReadRepository<Lesson> lessonRead,
             IReadRepository<TypingSession> sessionRead,
             IWriteRepository<TypingSession> sessionWrite,
-            IHttpContextAccessor httpContextAccessor)
+            IHttpContextAccessor httpContextAccessor,
+            AchievementService achievementService)
         {
             _lessonRead = lessonRead;
             _sessionRead = sessionRead;
             _sessionWrite = sessionWrite;
             _httpContextAccessor = httpContextAccessor;
+            _achievementService = achievementService;
         }
 
         public async Task<TypingSession> StartSessionAsync(int lessonId)
@@ -61,6 +64,8 @@ namespace BlindTypingTrainer.Web.Services
 
             // 3) Збереження змін
             await _sessionWrite.UpdateAsync(session);
+
+            await _achievementService.CheckAndAwardAsync(session);
         }
     }
 }

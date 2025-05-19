@@ -1,0 +1,31 @@
+﻿@model BlindTypingTrainer.Web.ViewModels.AchievementListVM
+
+@{
+    ViewData["Title"] = "Ваші досягнення";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="achievements-container">
+    @if (!Model.Achievements.Any())
+    {
+        <p>Ви ще не отримали жодного досягнення.</p>
+    }
+    else
+    {
+        <div class="achievements-grid">
+            @foreach (var a in Model.Achievements)
+            {
+                <div class="badge-card">
+                    <img src="@a.IconUrl" alt="@a.Title" class="badge-icon" />
+                    <h3>@a.Title</h3>
+                    <p>@a.Description</p>
+                    <span class="earned-at">@a.EarnedAt.ToString("dd.MM.yyyy HH:mm")</span>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="~/js/achievements.js"></script>
+}

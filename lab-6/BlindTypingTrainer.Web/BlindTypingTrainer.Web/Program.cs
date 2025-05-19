@@ -42,21 +42,26 @@ builder.Services.AddScoped<IWriteRepository<Lesson>, LessonRepository>();
 builder.Services.AddScoped<IReadRepository<TypingSession>, TypingSessionRepository>();
 builder.Services.AddScoped<IWriteRepository<TypingSession>, TypingSessionRepository>();
 
-// 5) Filtering strategies
+// 5) Repositories for achievements
+builder.Services.AddScoped<IAchievementRepository, AchievementRepository>();
+builder.Services.AddScoped<IUserAchievementRepository, UserAchievementRepository>();
+
+// 6) Filtering strategies
 builder.Services.AddScoped<ILessonFilterStrategy, EasyStrategy>();
 builder.Services.AddScoped<ILessonFilterStrategy, MediumStrategy>();
 builder.Services.AddScoped<ILessonFilterStrategy, HardStrategy>();
 builder.Services.AddScoped<ILessonFilterStrategy, VeryHardStrategy>();
 
-// 6) Application services
+// 7) Application services
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<TypingService>();
+builder.Services.AddScoped<AchievementService>();
 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// 7) Migrations + data + admin seeding
+// 8) Migrations + data + admin seeding
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -64,6 +69,8 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 
     SeedData.Initialize(services);
+
+    AchievementSeedData.Initialize(services);
 
     var roles = services.GetRequiredService<RoleManager<IdentityRole>>();
     if (!await roles.RoleExistsAsync("Admin"))
@@ -83,7 +90,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// 8) Middleware
+// 9) Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -96,7 +103,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// 9) Routing
+// 10) Routing
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"

@@ -12,6 +12,8 @@ namespace BlindTypingTrainer.Web.Data
 
         public DbSet<Lesson> Lessons { get; set; }
         public DbSet<TypingSession> TypingSessions { get; set; }
+        public DbSet<Achievement> Achievements { get; set; }
+        public DbSet<UserAchievement> UserAchievements { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -48,6 +50,15 @@ namespace BlindTypingTrainer.Web.Data
                 entity.Property(t => t.LoginProvider).HasMaxLength(50);
                 entity.Property(t => t.Name).HasMaxLength(50);
             });
+
+            // Налаштування для нових сутностей:
+            builder.Entity<Achievement>()
+                .Property(a => a.IconUrl)
+                .HasMaxLength(256);
+
+            builder.Entity<UserAchievement>()
+                .HasIndex(ua => new { ua.UserId, ua.AchievementId })
+                .IsUnique(); // унікальне досягнення на користувача
         }
     }
 }

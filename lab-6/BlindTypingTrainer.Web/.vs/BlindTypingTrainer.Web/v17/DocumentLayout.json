@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\blindtypingtrainer.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\blindtypingtrainer.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\services\\typingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\services\\typingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\services\\achievementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\services\\achievementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\repositories\\achievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\repositories\\achievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\repositories\\iachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\repositories\\iachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\models\\userachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\models\\userachievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\models\\achievementtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\models\\achievementtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\wwwroot\\js\\achievements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\wwwroot\\js\\achievements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\data\\achievementseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\data\\achievementseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\repositories\\iuserachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\repositories\\iuserachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\repositories\\userachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\repositories\\userachievementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\controllers\\achievementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\controllers\\achievementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\viewmodels\\achievementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\viewmodels\\achievementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\views\\achievement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\views\\achievement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\views\\typing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\views\\typing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|c:\\users\\vlad\\source\\repos\\\u0443\u043D\u0456\u0432\u0435\u0440\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab\\lab-6\\blindtypingtrainer.web\\blindtypingtrainer.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B0508E-A5E6-4E73-8729-4B46A1C390DD}|BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj|solutionrelative:blindtypingtrainer.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +90,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TypingService.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Services\\TypingService.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Services\\TypingService.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Services\\TypingService.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Services\\TypingService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:29:01.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "achievements.js",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\achievements.js",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\wwwroot\\js\\achievements.js",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\wwwroot\\js\\achievements.js",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\wwwroot\\js\\achievements.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-19T15:53:23.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AchievementSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\AchievementSeedData.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Data\\AchievementSeedData.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\AchievementSeedData.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Data\\AchievementSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:39:15.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Achievement\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Views\\Achievement\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Achievement\\Index.cshtml",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Views\\Achievement\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T15:33:05.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T15:29:47.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AchievementVM.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\ViewModels\\AchievementVM.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\ViewModels\\AchievementVM.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\ViewModels\\AchievementVM.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\ViewModels\\AchievementVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:27:09.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AchievementController.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Controllers\\AchievementController.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Controllers\\AchievementController.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Controllers\\AchievementController.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Controllers\\AchievementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:26:27.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AchievementService.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Services\\AchievementService.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Services\\AchievementService.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Services\\AchievementService.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Services\\AchievementService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:25:42.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserAchievementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\UserAchievementRepository.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Repositories\\UserAchievementRepository.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\UserAchievementRepository.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Repositories\\UserAchievementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:25:02.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserAchievementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\IUserAchievementRepository.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Repositories\\IUserAchievementRepository.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\IUserAchievementRepository.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Repositories\\IUserAchievementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:24:47.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AchievementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\AchievementRepository.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Repositories\\AchievementRepository.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\AchievementRepository.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Repositories\\AchievementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:24:07.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAchievementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\IAchievementRepository.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Repositories\\IAchievementRepository.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Repositories\\IAchievementRepository.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Repositories\\IAchievementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:23:46.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\SeedData.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:22:26.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:20:04.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAchievement.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\UserAchievement.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Models\\UserAchievement.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\UserAchievement.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Models\\UserAchievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:19:41.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\Achievement.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Models\\Achievement.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\Achievement.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Models\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:19:16.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AchievementType.cs",
+              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\AchievementType.cs",
+              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Models\\AchievementType.cs",
+              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Models\\AchievementType.cs",
+              "RelativeToolTip": "BlindTypingTrainer.Web\\Models\\AchievementType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:18:32.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Views\\Account\\Login.cshtml",
@@ -38,12 +323,11 @@
               "RelativeToolTip": "BlindTypingTrainer.Web\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T13:55:28.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:55:28.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Views\\Typing\\Index.cshtml",
               "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Views\\Typing\\Index.cshtml",
@@ -51,31 +335,17 @@
               "RelativeToolTip": "BlindTypingTrainer.Web\\Views\\Typing\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T12:30:51.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T12:30:51.579Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlindTypingTrainer.Web.csproj",
-              "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
-              "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
-              "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
-              "RelativeToolTip": "BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-07T20:13:22.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Program.cs",
               "RelativeDocumentMoniker": "BlindTypingTrainer.Web\\Program.cs",
               "ToolTip": "C:\\Users\\Vlad\\source\\repos\\\u0423\u043D\u0456\u0432\u0435\u0440\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\Program.cs",
               "RelativeToolTip": "BlindTypingTrainer.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T19:41:57.438Z",
               "EditorCaption": ""

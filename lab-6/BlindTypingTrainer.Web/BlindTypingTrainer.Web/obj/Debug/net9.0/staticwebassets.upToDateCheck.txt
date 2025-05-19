@@ -1,6 +1,7 @@
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\js\achievements.js
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
@@ -44,6 +45,7 @@ C:\Users\Vlad\source\repos\Універ\Конструювання програ�
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\css\achievements.css
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -62,9 +64,17 @@ C:\Users\Vlad\source\repos\Універ\Конструювання програ�
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\favicon.ico
 C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\wwwroot\js\typing-feedback.js
+wwwroot\css\achievements.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\achievements\100_words.png
+wwwroot\images\achievements\accuracy_95.jpg
+wwwroot\images\achievements\first_lesson.jfif
+wwwroot\images\achievements\marathon.jfif
+wwwroot\images\achievements\speed_50.jfif
+wwwroot\images\git.png
 wwwroot\images\uk.svg
+wwwroot\js\achievements.js
 wwwroot\js\site.js
 wwwroot\js\typing-feedback.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
