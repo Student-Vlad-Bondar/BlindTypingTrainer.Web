@@ -44,6 +44,16 @@
    - Використовує EF Core + Pomelo MySQL  
    - Міграції та сід дані у методі `SeedData.Initialize()` ([SeedData.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Data/SeedData.cs)).  
 
+7. **Система досягнень**
+   - **AchievementService** ([Services/AchievementService.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Services/AchievementService.cs)) — логіка перевірки й нарахування досягнень після завершення сесій.
+   - **AchievementRepository** та **UserAchievementRepository** ([Repositories/AchievementRepository.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Repositories/AchievementRepository.cs), [Repositories/UserAchievementRepository.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Repositories/UserAchievementRepository.cs)) — CRUD для `Achievement` та зв’язків `UserAchievement`.
+   - **Моделі** `Achievement` та `UserAchievement` ([Models/Achievement.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Models/Achievement.cs), [Models/UserAchievement.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Models/UserAchievement.cs)) — структура даних, типи досягнень, іконки та час отримання.
+   - **AchievementSeedData** ([Data/AchievementSeedData.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Data/AchievementSeedData.cs)) — початкове наповнення набору всіх можливих досягнень.
+   - **AchievementController** та Views ([Controllers/AchievementController.cs](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Controllers/AchievementController.cs), [Views/Achievements](lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Achievements)) — сторінка перегляду власних досягнень, де користувач бачить отримані та невиконані.
+   - **Інтеграція з TypingService** — після виклику `TypingService.EndSessionAsync` автоматично викликається `AchievementService.CheckAndAwardAsync(session)`, тож досягнення нараховуються одразу.
+
+   Користувач побачить список власних досягнень у розділі **Досягнення** в навігації профілю, а також зможе поглянути деталі (дата здобуття, опис, іконка).
+
 ---
 
 ## Запуск локально
