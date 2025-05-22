@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj": {}
+    "D:\\kpz_refactoring\\BlindTypingTrainer.Web-Vlad\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj": {
+    "D:\\kpz_refactoring\\BlindTypingTrainer.Web-Vlad\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
+        "projectUniqueName": "D:\\kpz_refactoring\\BlindTypingTrainer.Web-Vlad\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
         "projectName": "BlindTypingTrainer.Web",
-        "projectPath": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
-        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vlad\\source\\repos\\Універ\\Конструювання програмного забезпечення\\Lab\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\",
+        "projectPath": "D:\\kpz_refactoring\\BlindTypingTrainer.Web-Vlad\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "D:\\kpz_refactoring\\BlindTypingTrainer.Web-Vlad\\lab-6\\BlindTypingTrainer.Web\\BlindTypingTrainer.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

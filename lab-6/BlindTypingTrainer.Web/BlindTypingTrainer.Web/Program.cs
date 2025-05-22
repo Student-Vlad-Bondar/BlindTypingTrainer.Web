@@ -2,6 +2,8 @@ using BlindTypingTrainer.Web.Data;
 using BlindTypingTrainer.Web.Models;
 using BlindTypingTrainer.Web.Repositories;
 using BlindTypingTrainer.Web.Services;
+using BlindTypingTrainer.Web.Services.AchievementHandlers.Handlers.ConcreteHandlers;
+using BlindTypingTrainer.Web.Services.AchievementHandlers.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -52,7 +54,14 @@ builder.Services.AddScoped<ILessonFilterStrategy, MediumStrategy>();
 builder.Services.AddScoped<ILessonFilterStrategy, HardStrategy>();
 builder.Services.AddScoped<ILessonFilterStrategy, VeryHardStrategy>();
 
-// 7) Application services
+// 6) Handlers for COR
+builder.Services.AddScoped<IAchievementHandler, FirstLessonHandler>();
+builder.Services.AddScoped<IAchievementHandler, HundredWordsHandler>();
+builder.Services.AddScoped<IAchievementHandler, Accuracy95Handler>();
+builder.Services.AddScoped<IAchievementHandler, Speed50WpmHandler>();
+builder.Services.AddScoped<IAchievementHandler, MarathonHandler>();
+
+// 8) Application services
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<TypingService>();
 builder.Services.AddScoped<AchievementService>();
@@ -61,7 +70,7 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// 8) Migrations + data + admin seeding
+// 9) Migrations + data + admin seeding
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -90,7 +99,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// 9) Middleware
+// 10) Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -103,7 +112,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// 10) Routing
+// 11) Routing
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"

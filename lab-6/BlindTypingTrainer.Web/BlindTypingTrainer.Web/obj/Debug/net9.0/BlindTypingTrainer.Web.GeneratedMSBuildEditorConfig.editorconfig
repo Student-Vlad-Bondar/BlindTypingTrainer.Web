@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlindTypingTrainer.Web
 build_property.RootNamespace = BlindTypingTrainer.Web
-build_property.ProjectDir = C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\
+build_property.ProjectDir = D:\kpz_refactoring\BlindTypingTrainer.Web-Vlad\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vlad\source\repos\Універ\Конструювання програмного забезпечення\Lab\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web
+build_property.MSBuildProjectDirectory = D:\kpz_refactoring\BlindTypingTrainer.Web-Vlad\lab-6\BlindTypingTrainer.Web\BlindTypingTrainer.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/AccessDenied.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/EditProfile.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Login.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Profile.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Register.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Achievement/Index.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Achievement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNoaWV2ZW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Create.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Edit.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Index.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Home/Index.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/Error.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Typing/Index.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Typing/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwaW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/_ViewImports.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/_ViewStart.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vlad/source/repos/Універ/Конструювання програмного забезпечення/Lab/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/_Layout.cshtml]
+[D:/kpz_refactoring/BlindTypingTrainer.Web-Vlad/lab-6/BlindTypingTrainer.Web/BlindTypingTrainer.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9k7jl5xch3
