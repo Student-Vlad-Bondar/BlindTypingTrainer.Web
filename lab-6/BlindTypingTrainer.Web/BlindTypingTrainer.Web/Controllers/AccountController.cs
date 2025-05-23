@@ -1,4 +1,5 @@
 ﻿using BlindTypingTrainer.Web.Models;
+using BlindTypingTrainer.Web.Services;
 using BlindTypingTrainer.Web.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -11,11 +12,13 @@ namespace BlindTypingTrainer.Web.Controllers
     {
         private readonly UserManager<ApplicationUser> _um;
         private readonly SignInManager<ApplicationUser> _sm;
+        private readonly IUserProfileService _profileService;
 
-        public AccountController(UserManager<ApplicationUser> um, SignInManager<ApplicationUser> sm)
+        public AccountController(UserManager<ApplicationUser> um, SignInManager<ApplicationUser> sm, IUserProfileService profileService)
         {
             _um = um;
             _sm = sm;
+            _profileService = profileService;
         }
 
         [HttpGet]
@@ -29,7 +32,7 @@ namespace BlindTypingTrainer.Web.Controllers
             var res = await _um.CreateAsync(user, vm.Password);
             if (!res.Succeeded)
             {
-                foreach (var e in res.Errors) ModelState.AddModelError("", e.Description);
+                AddErrors(res);
                 return View(vm);
             }
             await _sm.SignInAsync(user, false);
@@ -44,7 +47,11 @@ namespace BlindTypingTrainer.Web.Controllers
         {
             if (!ModelState.IsValid) return View(vm);
             var res = await _sm.PasswordSignInAsync(vm.UserName, vm.Password, vm.RememberMe, false);
-            if (!res.Succeeded) { ModelState.AddModelError("", "Невірні дані"); return View(vm); }
+            if (!res.Succeeded)
+            {
+                ModelState.AddModelError("", "Невірні дані");
+                return View(vm);
+            }
             return LocalRedirect(vm.ReturnUrl ?? "/");
         }
 
@@ -104,52 +111,26 @@ namespace BlindTypingTrainer.Web.Controllers
             if (user == null)
                 return NotFound();
 
-            // 1) Змінюємо UserName і Email
-            bool needSignIn = false;
-            if (vm.UserName != user.UserName)
+            var (success, errors, needSignIn) = await _profileService.UpdateUserProfileAsync(user, vm);
+
+            if (!success)
             {
-                user.UserName = vm.UserName;
-                needSignIn = true;
-            }
-            if (vm.Email != user.Email)
-            {
-                user.Email = vm.Email;
-                user.EmailConfirmed = false;
-                needSignIn = true;
-            }
-            var res = await _um.UpdateAsync(user);
-            if (!res.Succeeded)
-            {
-                foreach (var e in res.Errors)
-                    ModelState.AddModelError("", e.Description);
+                foreach (var error in errors)
+                    ModelState.AddModelError("", error);
                 return View(vm);
             }
 
-            // 2) Змінюємо пароль, якщо заповнене поле
-            if (!string.IsNullOrEmpty(vm.CurrentPassword) ||
-                !string.IsNullOrEmpty(vm.NewPassword))
-            {
-                if (string.IsNullOrEmpty(vm.CurrentPassword) || string.IsNullOrEmpty(vm.NewPassword))
-                {
-                    ModelState.AddModelError("", "Щоб змінити пароль, заповніть обидва поля.");
-                    return View(vm);
-                }
-                var pwRes = await _um.ChangePasswordAsync(user, vm.CurrentPassword, vm.NewPassword);
-                if (!pwRes.Succeeded)
-                {
-                    foreach (var e in pwRes.Errors)
-                        ModelState.AddModelError("", e.Description);
-                    return View(vm);
-                }
-                needSignIn = true;
-            }
-
-            // 3) Якщо міняли логін/email чи пароль — перезаходимо на нову(свіжу) сесію
             if (needSignIn)
                 await _sm.RefreshSignInAsync(user);
 
             TempData["StatusMessage"] = "Дані профілю успішно оновлено";
             return RedirectToAction(nameof(EditProfile));
+        }
+
+        private void AddErrors(IdentityResult result)
+        {
+            foreach (var error in result.Errors)
+                ModelState.AddModelError("", error.Description);
         }
     }
 }

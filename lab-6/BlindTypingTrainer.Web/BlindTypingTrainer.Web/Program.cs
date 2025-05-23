@@ -65,6 +65,7 @@ builder.Services.AddScoped<IAchievementHandler, MarathonHandler>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<TypingService>();
 builder.Services.AddScoped<AchievementService>();
+builder.Services.AddScoped<IUserProfileService, UserProfileService>();
 
 builder.Services.AddControllersWithViews();
 
