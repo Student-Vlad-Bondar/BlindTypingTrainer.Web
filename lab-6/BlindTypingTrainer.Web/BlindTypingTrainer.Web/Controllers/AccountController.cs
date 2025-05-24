@@ -1,10 +1,12 @@
-﻿using BlindTypingTrainer.Web.Models;
+﻿using BlindTypingTrainer.Web.Extensions;
+using BlindTypingTrainer.Web.Models;
 using BlindTypingTrainer.Web.Services;
 using BlindTypingTrainer.Web.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace BlindTypingTrainer.Web.Controllers
 {
@@ -13,12 +15,18 @@ namespace BlindTypingTrainer.Web.Controllers
         private readonly UserManager<ApplicationUser> _um;
         private readonly SignInManager<ApplicationUser> _sm;
         private readonly IUserProfileService _profileService;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(UserManager<ApplicationUser> um, SignInManager<ApplicationUser> sm, IUserProfileService profileService)
+        public AccountController(
+            UserManager<ApplicationUser> um,
+            SignInManager<ApplicationUser> sm,
+            IUserProfileService profileService,
+            ILogger<AccountController> logger)
         {
             _um = um;
             _sm = sm;
             _profileService = profileService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -28,14 +36,17 @@ namespace BlindTypingTrainer.Web.Controllers
         public async Task<IActionResult> Register(RegisterVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
+
             var user = new ApplicationUser { UserName = vm.UserName, Email = vm.Email };
-            var res = await _um.CreateAsync(user, vm.Password);
-            if (!res.Succeeded)
+            var result = await _um.CreateAsync(user, vm.Password);
+
+            if (!result.Succeeded)
             {
-                AddErrors(res);
+                ModelState.AddIdentityErrors(result);
                 return View(vm);
             }
-            await _sm.SignInAsync(user, false);
+
+            await _sm.SignInAsync(user, isPersistent: false);
             return RedirectToAction("Index", "Home");
         }
 
@@ -46,12 +57,15 @@ namespace BlindTypingTrainer.Web.Controllers
         public async Task<IActionResult> Login(LoginVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            var res = await _sm.PasswordSignInAsync(vm.UserName, vm.Password, vm.RememberMe, false);
-            if (!res.Succeeded)
+
+            var result = await _sm.PasswordSignInAsync(vm.UserName, vm.Password, vm.RememberMe, lockoutOnFailure: false);
+            if (!result.Succeeded)
             {
+                _logger.LogWarning("Invalid login attempt for user {UserName}", vm.UserName);
                 ModelState.AddModelError("", "Невірні дані");
                 return View(vm);
             }
+
             return LocalRedirect(vm.ReturnUrl ?? "/");
         }
 
@@ -69,18 +83,25 @@ namespace BlindTypingTrainer.Web.Controllers
         {
             var user = await _um.Users
                 .Include(u => u.Sessions)
-                    .ThenInclude(s => s.Lesson)
+                .ThenInclude(s => s.Lesson)
                 .SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
 
+            if (user == null)
+            {
+                _logger.LogWarning("User not found in Profile()");
+                return NotFound();
+            }
+
             var completed = user.Sessions
-                        .Where(s => s.EndTime.HasValue)
-                        .OrderByDescending(s => s.EndTime);
+                .Where(s => s.EndTime.HasValue)
+                .OrderByDescending(s => s.EndTime);
 
             var vm = new ProfileVM
             {
                 UserName = user.UserName,
                 Sessions = completed
             };
+
             return View(vm);
         }
 
@@ -88,7 +109,7 @@ namespace BlindTypingTrainer.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> EditProfile()
         {
-            var user = await _um.GetUserAsync(User);
+            var user = await GetCurrentUserAsync();
             if (user == null) return NotFound();
 
             var vm = new EditProfileVM
@@ -96,6 +117,7 @@ namespace BlindTypingTrainer.Web.Controllers
                 UserName = user.UserName,
                 Email = user.Email
             };
+
             return View(vm);
         }
 
@@ -107,7 +129,7 @@ namespace BlindTypingTrainer.Web.Controllers
             if (!ModelState.IsValid)
                 return View(vm);
 
-            var user = await _um.GetUserAsync(User);
+            var user = await GetCurrentUserAsync();
             if (user == null)
                 return NotFound();
 
@@ -127,10 +149,7 @@ namespace BlindTypingTrainer.Web.Controllers
             return RedirectToAction(nameof(EditProfile));
         }
 
-        private void AddErrors(IdentityResult result)
-        {
-            foreach (var error in result.Errors)
-                ModelState.AddModelError("", error.Description);
-        }
+        private Task<ApplicationUser?> GetCurrentUserAsync() =>
+            _um.GetUserAsync(User);
     }
 }
