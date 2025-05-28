@@ -1,44 +1,65 @@
-﻿@model BlindTypingTrainer.Web.ViewModels.TypingViewModel
+@model BlindTypingTrainer.Web.ViewModels.TypingViewModel
 
-<h2>Тренування</h2>
+@{
+    ViewData["Title"] = "Тренування";
+}
 
-<div class="hand-placement">
-    <img id="imag" src="~/images/uk.svg" alt="Правильне розташування пальців" />
-</div>
-
-<div class="typing-container">
-    <div id="stageText" class="stage-text"></div>
-    <textarea id="inputBox" rows="3" cols="60" autocomplete="off" autofocus></textarea>
-</div>
-
-<div class="stats">
-    <span>Етап: <b id="stageNum">1</b> / @Model.Stages.Count</span>
-    <span>Час: <b id="timer">00:00</b></span>
-    <span>Правильно: <b id="correct">0</b></span>
-    <span>Помилки: <b id="errors">0</b></span>
-</div>
-
-@* Прихований input з JSON-списком етапів *@
-<input type="hidden" id="stagesData" value='@Html.Raw(Json.Serialize(Model.Stages))' />
-
-@* Форма завершення, до неї JS підставить correct/errors і відправить *@
-<form id="finishForm" asp-controller="Typing" asp-action="Finish" method="post">
-    <input type="hidden" name="sessionId" value="@Model.SessionId" />
-    <input type="hidden" id="correctInput" name="correct" value="0" />
-    <input type="hidden" id="errorsInput" name="errors" value="0" />
-</form>
-
-<button id="finish" type="button" style="display:none">Завершити</button>
-
-@* Блок із підсумками *@
-<div id="summary" style="display:none; margin-top:2rem;">
-    <h3>Результати уроку</h3>
-    <p>Загальний час: <b id="totalTime">00:00</b></p>
-    <p>Загальна кількість помилок: <b id="totalErrors">0</b></p>
-    <p>Введено символів на хвилину: <b id="wpm">0</b></p>
-    <p>Точність введення: <b id="accuracy">0%</b></p>
+<div class="container">
+    <h2>Тренування друку</h2>
+    
+    <div class="card mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <span>Етап <span id="stageNum">1</span></span>
+            <span>Час: <span id="timer">00:00</span></span>
+        </div>
+        <div class="card-body">
+            <div class="text-card">
+                <p id="stageText" class="typing-text"></p>
+            </div>
+            
+            <div class="mt-3">
+                <input type="text" id="inputBox" class="form-control" autocomplete="off" autofocus>
+            </div>
+            
+            <div class="stats-row mt-3">
+                <div>Правильно: <span id="correct">0</span></div>
+                <div>Помилки: <span id="errors">0</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Контейнер для віртуальної клавіатури -->
+    <div id="keyboard-container" class="mb-4"></div>
+    
+    <div id="summary" class="card mb-4" style="display: none;">
+        <div class="card-header">
+            <h5>Результати тренування</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Загальний час: <span id="totalTime">00:00</span></p>
+                    <p>Помилки: <span id="totalErrors">0</span></p>
+                </div>
+                <div class="col-md-6">
+                    <p>Швидкість: <span id="wpm">0</span> слів/хв</p>
+                    <p>Точність: <span id="accuracy">0%</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <form id="finishForm" method="post" asp-action="Finish">
+        <input type="hidden" name="sessionId" value="@Model.SessionId">
+        <input type="hidden" id="correctInput" name="correct" value="0">
+        <input type="hidden" id="errorsInput" name="errors" value="0">
+        <button id="finish" class="btn btn-primary" style="display: none;">Завершити тренування</button>
+    </form>
+    
+    <input type="hidden" id="stagesData" value="@Html.Raw(JsonSerializer.Serialize(Model.Stages))">
 </div>
 
 @section Scripts {
     <script src="~/js/typing-feedback.js"></script>
+    <script src="~/js/keyboard-visual.js"></script>
 }
